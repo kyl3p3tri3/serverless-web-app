@@ -1,0 +1,19 @@
+AWS stuff for server less web app assignment
+
+API Gateway invoke url
+https://85c3n8y1ck.execute-api.us-east-1.amazonaws.com/prod
+
+WildRydes Dynamo DB table ARN
+arn:aws:dynamodb:us-east-1:703763847580:table/Rides
+
+WildRydes app client and analytics 
+App client name: WildRydesWebApp
+Client ID: 6hvdgjat89gir5o7lbbto2u6r9
+
+WildRydes web app user pool ID
+us-east-1_KnpidF1i9
+
+Aws ses identity 
+arn:aws:ses:us-east-1:703763847580:identity/kylepetrie@my.unt.edu
+
+iam_su signin link pw: Chron420x!
