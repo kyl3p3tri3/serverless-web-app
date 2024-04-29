@@ -1,4 +1,4 @@
-AWS stuff for server less web app assignment
+AWS stuff for the aws serverless web app assignment
 
 API Gateway invoke url
 https://85c3n8y1ck.execute-api.us-east-1.amazonaws.com/prod
@@ -16,4 +16,7 @@ us-east-1_KnpidF1i9
 Aws ses identity 
 arn:aws:ses:us-east-1:703763847580:identity/kylepetrie@my.unt.edu
 
-iam_su signin link pw: Chron420x!
+iam_su signin
+user: kyl3p3tri3@gmail.com
+pw: Chron420x!
+
