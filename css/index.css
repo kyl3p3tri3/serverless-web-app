@@ -25,15 +25,10 @@ body {
     height: 100%
 }
 
-/* Added holder div to keep ticket widget floating*/
-#holder{
-    min-height: 100%;
-    position:relative
-}
-
 #body{
     padding-bottom: 100px
 }
+
 
 #footer{
   height: 100px; 
