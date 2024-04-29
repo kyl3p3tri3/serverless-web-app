@@ -16,13 +16,32 @@ input,
 select,
 textarea {
     color: #222;
+    height: 100%
 }
 
 body {
     font-size: 1em;
     line-height: 1.4;
+    height: 100%
 }
 
+/* Added holder div to keep ticket widget floating*/
+#holder{
+    min-height: 100%;
+    position:relative
+}
+
+#body{
+    padding-bottom: 100px
+}
+
+footer{
+  height: 100px; 
+  width:100%;
+  position: absolute;
+  left: 0;
+  bottom: 30px; 
+}
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection declarations have to be separate.
