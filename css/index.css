@@ -38,7 +38,7 @@ body {
 footer{
   height: 100px; 
   width:100%;
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 30px; 
 }
@@ -312,22 +312,6 @@ h1{
     font-size: 35px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
