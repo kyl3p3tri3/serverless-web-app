@@ -29,6 +29,10 @@ body {
  * Customize the background color to match your design.
  */
 
+/* Fixed posiiton not working for ticket */
+.binance-widget-marquee {
+    position: fixed;
+}
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
