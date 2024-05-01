@@ -1,12 +1,17 @@
-let apiName = 'WildRydes'; // replace this with your api name.
-let path = '/subscribe'; //replace this with the path you have configured on your API
-let myInit = {
-    body: {
-        // replace this with attributes you need
-    },
-    headers: {} // OPTIONAL
-}
+//function to invoke lambda SES email sending function
 
-API.post(apiName, path, myInit).then(response => {
-    // Add your code here
-});
+var AWS = require('aws-sdk');
+AWS.config.region = 'us-east-1'
+
+function callLambda(){
+    var lambda = new AWS.Lambda();
+    var params = {
+        FunctionName: 'WildRydes_Subscription_Email',
+        Payload: '{"key1" : "kylepetrie@my.unt.edu"}'
+    };
+    lambda.invoke(params, function(err, data) {
+        if (err) console.log(err, err.stack);
+        else     console.log(data);
+    });
+}
+callLambda();

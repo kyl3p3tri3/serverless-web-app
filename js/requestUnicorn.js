@@ -25,12 +25,12 @@ const fleet = [
 		Gender: 'Male',
 	},
 	{
-		Name: 'Shadowfax',
+		Name: 'Kyle Petrie',
 		Color: 'White',
 		Gender: 'Male',
 	},
 	{
-		Name: 'Rocinante',
+		Name: 'Kyle Petrie',
 		Color: 'Yellow',
 		Gender: 'Female',
 	},
